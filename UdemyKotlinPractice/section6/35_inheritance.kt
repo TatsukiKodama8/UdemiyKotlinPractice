@@ -23,3 +23,6 @@ fun main() {
     nakata.liveIn()
     nakata.intro()
 }
+
+// overrideを強制する
+// polimorphyism??
