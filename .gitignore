@@ -1,3 +1,7 @@
+# 不要なファイル群
+.vscode
+.DS_Store
+
 # 教材
 *.pdf
 
