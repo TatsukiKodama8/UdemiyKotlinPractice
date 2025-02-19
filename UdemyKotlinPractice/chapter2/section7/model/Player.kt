@@ -1,8 +1,8 @@
 package model
 
 // サブクラス
-class Player(name: String, hp: Int, var atk: Int, override var heal: Int): Character(name, hp), Heal {
-    fun attack() {
+open class Player(name: String, hp: Int, var atk: Int, override var heal: Int): Character(name, hp), Heal {
+    open fun attack() {
         println("${name}の攻撃！${atk}のダメージ！")
     }
 
